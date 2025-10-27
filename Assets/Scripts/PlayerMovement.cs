@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,13 @@ public class PlayerMovement : MonoBehaviour
     public float horizontalSpeed = 3;
     public float rightLimit = 5.5f;
     public float leftLimit = -5.5f;
+
+    // Hýz artýrma/geri alma için alanlar
+    public KeyCode boostKey = KeyCode.J;
+    public KeyCode resetKey = KeyCode.K;
+    public float boostAmount = 4f; // J ile artýþ miktarý (ör: +4)
+    private float originalSpeed;
+    private bool isBoosted = false;
 
     public float jumpForce = 7f;
     public float gravity = 20f;
@@ -18,10 +26,23 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         groundY = transform.position.y;
+        originalSpeed = playerSpeed; // Orijinal hýzý sakla
     }
 
     void Update()
     {
+        // Hýz artýrma / sýfýrlama kontrolleri
+        if (Input.GetKeyDown(boostKey) && !isBoosted)
+        {
+            playerSpeed = originalSpeed + boostAmount;
+            isBoosted = true;
+        }
+        if (Input.GetKeyDown(resetKey) && isBoosted)
+        {
+            playerSpeed = originalSpeed;
+            isBoosted = false;
+        }
+
         transform.Translate(Vector3.forward * Time.deltaTime * playerSpeed, Space.World);
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
@@ -34,28 +55,31 @@ public class PlayerMovement : MonoBehaviour
             if (transform.position.x >= rightLimit) return;
             transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed);
         }
+        
 
         // Zýplama
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            verticalVelocity = jumpForce;
-            isGrounded = false;
-        }
-
-        // Yerçekimi ve dikey hareket
-        if (!isGrounded)
-        {
-            verticalVelocity -= gravity * Time.deltaTime;
-            transform.position += Vector3.up * verticalVelocity * Time.deltaTime;
-
-            // Yere inme kontrolü
-            if (transform.position.y <= groundY)
             {
-                Vector3 pos = transform.position;
-                pos.y = groundY;
-                transform.position = pos;
-                verticalVelocity = 0f;
-                isGrounded = true;
+                verticalVelocity = jumpForce;
+                isGrounded = false;
+            }
+
+            // Yerçekimi ve dikey hareket
+            if (!isGrounded)
+            {
+                verticalVelocity -= gravity * Time.deltaTime;
+                transform.position += Vector3.up * verticalVelocity * Time.deltaTime;
+
+                // Yere inme kontrolü
+                if (transform.position.y <= groundY)
+                {
+                    Vector3 pos = transform.position;
+                    pos.y = groundY;
+                    transform.position = pos;
+                    verticalVelocity = 0f;
+                    isGrounded = true;
+                }
             }
         }
     }
