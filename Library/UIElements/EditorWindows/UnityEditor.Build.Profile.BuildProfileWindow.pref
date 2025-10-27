@@ -33,12 +33,20 @@ MonoBehaviour:
   m_Values:
   - '{"m_FixedPaneDimension":225.0}'
   - '{"m_ScrollOffset":{"x":0.0,"y":0.0}}'
+<<<<<<< HEAD
   - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_SelectedIds":[1]}'
+=======
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_SelectedIds":[0]}'
+>>>>>>> 2a9cef5c22fb4b890b1ab76869cb6d210270cd7e
   - '{"m_ScrollOffset":{"x":0.0,"y":0.0}}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_SelectedIds":[]}'
   - '{"m_ScrollOffset":{"x":0.0,"y":0.0}}'
+<<<<<<< HEAD
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":2147483648.0}'
+=======
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
+>>>>>>> 2a9cef5c22fb4b890b1ab76869cb6d210270cd7e
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":-68.00003051757813}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ScrollOffset":{"x":0.0,"y":0.0}}'
@@ -46,5 +54,9 @@ MonoBehaviour:
   - '{"m_Value":true}'
   - '{"m_Value":true}'
   - '{"m_Value":true}'
+<<<<<<< HEAD
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":-12.800048828125}'
+=======
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":-299.20001220703127}'
+>>>>>>> 2a9cef5c22fb4b890b1ab76869cb6d210270cd7e
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'

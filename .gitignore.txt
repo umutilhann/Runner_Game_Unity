@@ -1,0 +1,57 @@
+# Bu dosya, Unity projelerinde sürüm kontrol sistemine (Git) dahil edilmemesi gereken dosyaları listeler.
+
+# Unity Proje Ayarları ve Geçici Klasörler
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools/
+/Assets/StreamingAssets/
+
+# İlgi Alanı (Ignore)
+# Bu dosyalar her bilgisayarda yeniden oluşturulabilir veya kullanıcının yerel ayarlarını içerir.
+# Git'e dahil edilmeleri önerilmez.
+# Unity meta dosyaları (.meta) ve önemli ayarlar HARİÇ her şeyi görmezden geliriz.
+
+# Loglar
+/*.log
+/*.log.gz
+
+# Mac Ayarları
+.DS_Store
+.TemporaryItems
+
+# Windows Ayarları
+Thumbs.db
+Desktop.ini
+
+# Visual Studio ve Rider gibi IDE'ler (Entegre Geliştirme Ortamları)
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# JetBrains Rider
+.idea/
+
+# Android/iOS Derleme Dosyaları
+/ExportedObj/
+.gradle/
+/Assets/Plugins/Android/libs/
+
+# Derlenmiş Dallar (DLL'ler)
+/bin/
+/obj/
+
+# Git LFS (Büyük Dosya Depolama) Ayarı
+# Unity projeleri büyük olduğu için LFS kullanmak genelde iyidir.
+# Eğer kullanıyorsanız, bu dosya gerekli.
+#.gitattributes
