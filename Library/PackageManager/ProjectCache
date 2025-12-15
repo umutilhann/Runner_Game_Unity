@@ -1,33 +1,112 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/Users/umuti/OneDrive/Masa\xFCst\xFC/Unity/Runner_Game_Project/Packages/manifest.json"
+    m_FilePath: "C:/Users/emnis/OneDrive/Desktop/Umut-Emre-AB\u015E Oyun Projesi/Runner_Game_Unity/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638958467665321719
-    m_Hash: 2814399497
+      ticks: 639014049903528101
+    m_Hash: 4046518028
   m_LockFileStatus:
-    m_FilePath: "C:/Users/umuti/OneDrive/Masa\xFCst\xFC/Unity/Runner_Game_Project/Packages/packages-lock.json"
+    m_FilePath: "C:/Users/emnis/OneDrive/Desktop/Umut-Emre-AB\u015E Oyun Projesi/Runner_Game_Unity/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638958467665456684
-    m_Hash: 2235695594
+      ticks: 639014049903556215
+    m_Hash: 806615204
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: "C:/Users/umuti/OneDrive/Masa\xFCst\xFC/Unity/Runner_Game_Project/Packages"
+m_ProjectPath: "C:/Users/emnis/OneDrive/Desktop/Umut-Emre-AB\u015E Oyun Projesi/Runner_Game_Unity/Packages"
 m_EditorVersion: 6000.0.59f2 (ef281c76c3c1)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.2d.sprite@897b7eecf04e"
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 897b7eecf04ec94126f19c6ce2cba3404cc15178
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.10.0
   testable: 0
   isDirectDependency: 1
   version: 2.10.0
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.collab-proxy@1e5e48aff19d"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.collab-proxy@1e5e48aff19d"
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -126,9 +205,13 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
     compatible:
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
     recommended: 2.9.3
     deprecated: []
   dependencies: []
@@ -216,7 +299,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7"
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -326,7 +409,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5"
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -399,9 +482,13 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.2
     - 1.15.0
+    - 1.16.0
+    - 1.17.0
     compatible:
     - 1.14.2
     - 1.15.0
+    - 1.16.0
+    - 1.17.0
     recommended: 1.14.2
     deprecated: []
   dependencies:
@@ -483,7 +570,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546"
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -576,7 +663,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb"
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -680,9 +767,11 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     compatible:
     - 1.8.9
-    recommended: 1.8.9
+    - 1.8.10
+    recommended: 1.8.10
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -773,7 +862,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.ugui@23b1a4ff749d"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.ugui@23b1a4ff749d"
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -868,7 +957,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485"
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3729,7 +3818,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13"
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3846,7 +3935,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684"
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3976,7 +4065,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c"
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4064,7 +4153,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.performance.profile-analyzer@a68e7bc84997"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.performance.profile-analyzer@a68e7bc84997"
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4160,7 +4249,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.test-framework@0baaad2f700c"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.test-framework@0baaad2f700c"
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4249,7 +4338,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39"
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4383,7 +4472,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.settings-manager@41738c275190"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.settings-manager@41738c275190"
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4471,7 +4560,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: "C:\\Users\\umuti\\OneDrive\\Masa\xFCst\xFC\\Unity\\Runner_Game_Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff"
+  resolvedPath: "C:\\Users\\emnis\\OneDrive\\Desktop\\Umut-Emre-AB\u015E Oyun Projesi\\Runner_Game_Unity\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff"
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
