@@ -43,43 +43,42 @@ public class PlayerMovement : MonoBehaviour
             isBoosted = false;
         }
 
+        // Ýleri hareket
         transform.Translate(Vector3.forward * Time.deltaTime * playerSpeed, Space.World);
 
+        // Yatay hareket (limitleri aþmayacak þekilde)
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
-            if (transform.position.x <= leftLimit) return;
-            transform.Translate(Vector3.left * Time.deltaTime * horizontalSpeed);
+            if (transform.position.x > leftLimit)
+                transform.Translate(Vector3.left * Time.deltaTime * horizontalSpeed, Space.World);
         }
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            if (transform.position.x >= rightLimit) return;
-            transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed);
+            if (transform.position.x < rightLimit)
+                transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed, Space.World);
         }
-        
 
-        // Zýplama
+        // Zýplama baþlangýcý
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            {
-                verticalVelocity = jumpForce;
-                isGrounded = false;
-            }
+            verticalVelocity = jumpForce;
+            isGrounded = false;
+        }
 
-            // Yerçekimi ve dikey hareket
-            if (!isGrounded)
-            {
-                verticalVelocity -= gravity * Time.deltaTime;
-                transform.position += Vector3.up * verticalVelocity * Time.deltaTime;
+        // Yerçekimi ve dikey hareket (her Update uygulanýr)
+        if (!isGrounded)
+        {
+            verticalVelocity -= gravity * Time.deltaTime;
+            transform.position += Vector3.up * verticalVelocity * Time.deltaTime;
 
-                // Yere inme kontrolü
-                if (transform.position.y <= groundY)
-                {
-                    Vector3 pos = transform.position;
-                    pos.y = groundY;
-                    transform.position = pos;
-                    verticalVelocity = 0f;
-                    isGrounded = true;
-                }
+            // Yere inme kontrolü
+            if (transform.position.y <= groundY)
+            {
+                Vector3 pos = transform.position;
+                pos.y = groundY;
+                transform.position = pos;
+                verticalVelocity = 0f;
+                isGrounded = true;
             }
         }
     }
