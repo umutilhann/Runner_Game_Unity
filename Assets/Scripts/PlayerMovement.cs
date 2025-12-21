@@ -27,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     {
         groundY = transform.position.y;
         originalSpeed = playerSpeed; // Orijinal hýzý sakla
+        // Her 10 saniyede bir hýzý arttýrmak için coroutine baþlat
+        StartCoroutine(IncrementSpeedOverTime(5f, 0.8f));
     }
 
     void Update()
@@ -80,6 +82,20 @@ public class PlayerMovement : MonoBehaviour
                 verticalVelocity = 0f;
                 isGrounded = true;
             }
+        }
+    }
+
+    IEnumerator IncrementSpeedOverTime(float intervalSeconds, float amount)
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(intervalSeconds);
+            originalSpeed += amount;
+            // Eðer boost aktifse toplam hýz boost ile birlikte güncellensin
+            if (isBoosted)
+                playerSpeed = originalSpeed + boostAmount;
+            else
+                playerSpeed = originalSpeed;
         }
     }
 }

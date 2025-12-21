@@ -14708,7 +14708,7 @@ Transform:
   m_GameObject: {fileID: 1220736533}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: -128.3}
+  m_LocalPosition: {x: 0.5, y: 0, z: -207.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20882,7 +20882,7 @@ Transform:
   m_GameObject: {fileID: 1744688465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -65.37}
+  m_LocalPosition: {x: 1, y: 0, z: -133.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22303,7 +22303,7 @@ Transform:
   m_GameObject: {fileID: 1863684997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 0, z: -192.6}
+  m_LocalPosition: {x: -72.6, y: 0, z: -213.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23727,6 +23727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1962671728}
+  - component: {fileID: 1962671729}
   m_Layer: 0
   m_Name: StartSegment
   m_TagString: Untagged
@@ -23801,6 +23802,18 @@ Transform:
   - {fileID: 169469083}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962671729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962671727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b047472d6f61d447a818db0dcd1c1ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1967613633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4384400948941904, guid: 41e722f5443cbd048b675375e24f1beb, type: 3}
