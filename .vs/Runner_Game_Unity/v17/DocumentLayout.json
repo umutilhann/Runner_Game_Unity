@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\",
+  "WorkspaceRootPath": "C:\\Users\\Win11\\Desktop\\OyunProjesi2\\Runner_Game_Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|c:\\users\\umuti\\onedrive\\masa\u00FCst\u00FC\\unity\\runner\\runner_game_unity\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|c:\\users\\win11\\desktop\\oyunprojesi2\\runner_game_unity\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|c:\\users\\umuti\\onedrive\\masa\u00FCst\u00FC\\unity\\runner\\runner_game_unity\\assets\\scripts\\segmentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\segmentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|c:\\users\\umuti\\onedrive\\masa\u00FCst\u00FC\\unity\\runner\\runner_game_unity\\assets\\scripts\\startyokulacaksegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startyokulacaksegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|C:\\Users\\Win11\\Desktop\\OyunProjesi2\\Runner_Game_Unity\\assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2733B26-E7E4-A348-5581-EA262ABCCAD9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,39 +24,30 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\Assets\\Scripts\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Win11\\Desktop\\OyunProjesi2\\Runner_Game_Unity\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Win11\\Desktop\\OyunProjesi2\\Runner_Game_Unity\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswB4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T06:39:45.067Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SegmentGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\Assets\\Scripts\\SegmentGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SegmentGenerator.cs",
-              "ToolTip": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\Assets\\Scripts\\SegmentGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SegmentGenerator.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAewCoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:30:04.73Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "startYokulacakSegment.cs",
-              "DocumentMoniker": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\Assets\\Scripts\\startYokulacakSegment.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\startYokulacakSegment.cs",
-              "ToolTip": "C:\\Users\\umuti\\OneDrive\\Masa\u00FCst\u00FC\\Unity\\Runner\\Runner_Game_Unity\\Assets\\Scripts\\startYokulacakSegment.cs",
-              "RelativeToolTip": "Assets\\Scripts\\startYokulacakSegment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "C:\\Users\\Win11\\Desktop\\OyunProjesi2\\Runner_Game_Unity\\Assets\\Scripts\\ShopManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShopManager.cs",
+              "ToolTip": "C:\\Users\\Win11\\Desktop\\OyunProjesi2\\Runner_Game_Unity\\Assets\\Scripts\\ShopManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShopManager.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:25:13.003Z",
+              "WhenOpened": "2025-12-27T16:19:49.966Z",
               "EditorCaption": ""
             }
           ]

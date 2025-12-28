@@ -1,54 +1,55 @@
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Hýz Ayarlarý")]
     public float playerSpeed = 6;
     public float horizontalSpeed = 3;
+
+    [Header("Sýnýrlar")]
     public float rightLimit = 5.5f;
     public float leftLimit = -5.5f;
 
-    // Hýz artýrma/geri alma için alanlar
-    public KeyCode boostKey = KeyCode.J;
-    public KeyCode resetKey = KeyCode.K;
-    public float boostAmount = 4f; // J ile artýþ miktarý (ör: +4)
-    private float originalSpeed;
-    private bool isBoosted = false;
-
+    [Header("Zýplama")]
     public float jumpForce = 7f;
     public float gravity = 20f;
     private bool isGrounded = true;
     private float verticalVelocity = 0f;
-    private float groundY = 0f; // Zemin yüksekliði
+    private float groundY = 0f;
+
+    [Header("Yetenek Durumlarý")]
+    public bool hasDoubleJump = false;
+    private bool canDoubleJump = false;
 
     void Start()
     {
         groundY = transform.position.y;
-        originalSpeed = playerSpeed; // Orijinal hýzý sakla
-        // Her 10 saniyede bir hýzý arttýrmak için coroutine baþlat
-        StartCoroutine(IncrementSpeedOverTime(5f, 0.8f));
+
+        LoadUpgrades();
+
+        StartCoroutine(IncrementSpeedOverTime(10f, 0.5f));
+    }
+
+    void LoadUpgrades()
+    {
+        // 1. HIZ KONTROLÜ
+        if (PlayerPrefs.GetInt("HasSpeed", 0) == 1)
+        {
+            // Sadece hýzý arttýrýyoruz, kameraya dokunmuyoruz.
+            playerSpeed += 4.5f;
+        }
+
+        // 2. ÇÝFT ZIPLAMA
+        hasDoubleJump = (PlayerPrefs.GetInt("HasDoubleJump", 0) == 1);
     }
 
     void Update()
     {
-        // Hýz artýrma / sýfýrlama kontrolleri
-        if (Input.GetKeyDown(boostKey) && !isBoosted)
-        {
-            playerSpeed = originalSpeed + boostAmount;
-            isBoosted = true;
-        }
-        if (Input.GetKeyDown(resetKey) && isBoosted)
-        {
-            playerSpeed = originalSpeed;
-            isBoosted = false;
-        }
-
-        // Ýleri hareket
+        // Ýleri Hareket
         transform.Translate(Vector3.forward * Time.deltaTime * playerSpeed, Space.World);
 
-        // Yatay hareket (limitleri aþmayacak þekilde)
+        // Saða Sola Hareket
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             if (transform.position.x > leftLimit)
@@ -60,20 +61,28 @@ public class PlayerMovement : MonoBehaviour
                 transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed, Space.World);
         }
 
-        // Zýplama baþlangýcý
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        // Zýplama
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            verticalVelocity = jumpForce;
-            isGrounded = false;
+            if (isGrounded)
+            {
+                verticalVelocity = jumpForce;
+                isGrounded = false;
+                canDoubleJump = true;
+            }
+            else if (hasDoubleJump && canDoubleJump)
+            {
+                verticalVelocity = jumpForce;
+                canDoubleJump = false;
+            }
         }
 
-        // Yerçekimi ve dikey hareket (her Update uygulanýr)
+        // Yerçekimi Uygulama
         if (!isGrounded)
         {
             verticalVelocity -= gravity * Time.deltaTime;
             transform.position += Vector3.up * verticalVelocity * Time.deltaTime;
 
-            // Yere inme kontrolü
             if (transform.position.y <= groundY)
             {
                 Vector3 pos = transform.position;
@@ -85,17 +94,13 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Zamanla hýzlanma (Oyun zorlaþsýn diye)
     IEnumerator IncrementSpeedOverTime(float intervalSeconds, float amount)
     {
         while (true)
         {
             yield return new WaitForSeconds(intervalSeconds);
-            originalSpeed += amount;
-            // Eðer boost aktifse toplam hýz boost ile birlikte güncellensin
-            if (isBoosted)
-                playerSpeed = originalSpeed + boostAmount;
-            else
-                playerSpeed = originalSpeed;
+            playerSpeed += amount;
         }
     }
 }

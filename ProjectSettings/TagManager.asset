@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Potatoe
   - Ground
+  - Coin
   layers:
   - Default
   - TransparentFX

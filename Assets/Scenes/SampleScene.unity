@@ -13643,11 +13643,10 @@ MonoBehaviour:
   horizontalSpeed: 3
   rightLimit: 5.5
   leftLimit: -5.5
-  boostKey: 106
-  resetKey: 107
-  boostAmount: 4
   jumpForce: 7
   gravity: 20
+  hasDoubleJump: 0
+  hasMagnet: 0
 --- !u!114 &1069148961
 MonoBehaviour:
   m_ObjectHideFlags: 0
