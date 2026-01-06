@@ -1,5 +1,5 @@
 
-🏃‍♂️ Forrest Game Unity
+🏃‍♂️ Forest Game Unity
 
     Bu proje, Unity oyun motoru kullanılarak geliştirilmiş,dinamik
     ve akıcı bir Endless Runner (Sonsuz Koşu) oyunudur.
