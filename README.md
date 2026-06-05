@@ -1,58 +1,46 @@
+# 🏃‍♂️ Forest Runner — Unity Endless Runner
 
-🏃‍♂️ Forest Game Unity
+Unity oyun motoru ile geliştirilmiş dinamik ve akıcı bir **Endless Runner** oyunu. Klasik koşu mekaniklerini modern bir yaklaşımla sunar: engellerden kaç, puan topla, hayatta kal.
 
-    Bu proje, Unity oyun motoru kullanılarak geliştirilmiş,dinamik
-    ve akıcı bir Endless Runner (Sonsuz Koşu) oyunudur.
-    Oyuncuların engellerden kaçtığı, puan topladığı ve hayatta
-    kalmaya çalıştığı klasik runner mekaniklerini modern bir 
-    yaklaşımla sunar.
+---
 
-🎮 Oyun Özellikleri
+## Oyun Özellikleri
 
-    Sonsuz Platform Üretimi: Oyun ilerledikçe platformlar
-    rastgele  ve sonsuz bir şekilde oluşturulur.
+- **Sonsuz Platform Üretimi** — Oyun ilerledikçe platformlar rastgele ve kesintisiz şekilde oluşturulur
+- **Hızlanma Mekaniği** — Zaman geçtikçe karakter hızı ve zorluk seviyesi artar
+- **Gelişmiş Karakter Kontrolü** — Akıcı zıplama ve sağa/sola kayma (lane switching) hareketleri
+- **Engel Çeşitliliği** — Statik ve hareketli engellerle dolu zorlu parkurlar
+- **Skor Sistemi** — Kat edilen mesafe ve toplanan nesnelere dayalı yüksek skor takibi
 
-    Hızlanma Mekaniği: Zaman geçtikçe oyunun zorluk seviyesi
-    ve karakter hızı artar.
+---
 
-    Gelişmiş Karakter Kontrolü: Akıcı zıplama, sağa/sola kayma
-    (lane switching) hareketleri.
+## Teknolojiler
 
-    Engel Çeşitliliği: Statik ve hareketli engellerle dolu 
-    zorlayıcı bir parkur.
+| Alan | Teknoloji |
+|---|---|
+| Oyun Motoru | Unity 6000.0.27f2 |
+| Programlama Dili | C# |
+| Performans | Object Pooling (platform ve engel yönetimi) |
+| Veri Yönetimi | Scriptable Objects |
+| Arayüz | Unity UI / HUD |
 
-    Skor Sistemi: Kat edilen mesafe ve toplanan nesnelere
-    dayalı yüksek skor takibi.
+---
 
-🛠️ Kullanılan Teknolojiler
+## Kurulum
 
-    Oyun Motoru: Unity 6000.0.27f2
+1. Depoyu klonlayın:
 
-    Programlama Dili: C#
+```bash
+git clone https://github.com/umutilhann/Runner_Game_Unity.git
+```
 
-    Sistemler:
+2. **Unity Hub**'ı açın ve projeyi listeye ekleyin
+3. Projeyi **Unity 6000.0.27f2** sürümüyle başlatın
+4. `Assets/Scenes/` klasöründeki `MainScene`'i açın ve **Play** butonuna basın
 
-    Object Pooling (Performans optimizasyonu için platform ve
-    engel yönetimi)
+---
 
-    Scriptable Objects (Veri yönetimi ve oyun ayarları için)
+## Katkıda Bulunanlar
 
-    Unity UI (Arayüz ve HUD tasarımı)
-
-🚀 Kurulum ve Çalıştırma
-
-    1. Bu depoyu bilgisayarınıza klonlayın:
-
-    bash
-    git clone https://github.com/umutilhann/Runner_Game_Unity.git
-
-    2. Unity Hub'ı açın ve projeyi listeye ekleyin.
-    3. Projeyi uygun Unity sürümü ile başlatın.
-    4. Assets/Scenes klasörü altındaki ana sahneyi (MainScene)
-       açın ve Play butonuna basın.
-## Yazarlar ve Teşekkür
-
-- [@mrbaydev01](https://github.com/mrbaydev01) tasarım ve geliştirme için.
-- [@Ardassssss](https://github.com/Ardassssss) tasarım ve geliştirme için
-
-  
+- [@mrbaydev01](https://github.com/mrbaydev01) — Tasarım ve geliştirme
+- [@Ardassssss](https://github.com/Ardassssss) — Tasarım ve geliştirme
