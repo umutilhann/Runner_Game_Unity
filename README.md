@@ -31,7 +31,7 @@ Unity oyun motoru ile geliştirilmiş dinamik ve akıcı bir **Endless Runner** 
 1. Depoyu klonlayın:
 
 ```bash
-git clone https://github.com/umutilhann/Runner_Game_Unity.git
+git clone https://github.com/umutilhann/Forest_Runner_Unity.git
 ```
 
 2. **Unity Hub**'ı açın ve projeyi listeye ekleyin
